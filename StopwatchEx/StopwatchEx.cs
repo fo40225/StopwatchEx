@@ -28,7 +28,6 @@
         /// Initializes a new instance of the <see cref="StopwatchEx"/> class and start immediately.
         /// </summary>
         /// <param name="name"> Stopwatch's name </param>
-        /// <param name="startImmediately"> start immediately or not </param>
         public StopwatchEx(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
