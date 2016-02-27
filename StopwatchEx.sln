@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopwatchEx", "StopwatchEx\StopwatchEx.csproj", "{CDCCB098-C2AE-41F7-A8C6-1CA2CB3C6281}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4159F81D-B1E8-47CC-B5D6-08DE6D5D4D27}"
+	ProjectSection(SolutionItems) = preProject
+		MyRules.ruleset = MyRules.ruleset
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

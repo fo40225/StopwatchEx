@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Microsoft 所有規則 (自訂)" Description="這個規則集包含所有規則。執行這個規則集可能導致大量的警告回報。使用這個規則集可讓您對程式碼中的所有問題有全面性的了解。這可以幫助您決定哪些焦點更為集中的規則集最適合用來執行您的專案。" ToolsVersion="14.0">
+  <IncludeAll Action="Warning" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1303" Action="None" />
+    <Rule Id="CA2210" Action="None" />
+  </Rules>
+</RuleSet>
